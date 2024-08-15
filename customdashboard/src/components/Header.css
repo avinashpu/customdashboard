@@ -1,0 +1,30 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-bottom: 2px solid #444; /* Optional: Adds a bottom border for separation */
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align the search bar to the right */
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  width: 250px; /* Adjust the width as needed */
+  max-width: 100%;
+}
